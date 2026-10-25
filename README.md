@@ -1,16 +1,36 @@
-## Hi there 👋
+# 你好，我是 chenaoxin26
 
-<!--
-**chenaoxin26/chenaoxin26** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+我是郑州轻工业大学的一名大一学生。
 
-Here are some ideas to get you started:
+我想尝试用 AI 和数字工具解决学习、校园生活中遇到的实际问题，在这里记录自己的实践、遇到的问题和后续改进。
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 实践项目
+
+### 学生手册本地问答工具
+
+学生手册内容较多，查找具体规定不太方便。为此，我提出搭建一个可以直接提问、查看原文依据的本地知识库。
+
+目前实现的功能：
+
+- 用自然语言查询学生手册中的规定
+- 查看回答对应的章节、条款和原文
+- 在个人电脑上运行，无需调用付费 API
+- 对手册未涉及的问题提示资料不足
+
+**我的参与**
+
+提出使用需求，提供学校手册，参与试用并反馈使用中遇到的问题。
+
+**AI 的参与**
+
+程序编写、模型部署、文档解析和技术验证主要由 Codex 完成。这是一次 AI 辅助实践，我仍在学习相关技术原理。
+
+**目前的局限**
+
+回答依据所导入的手册版本，不能自动反映最新政策；模型回答可能出错，需要结合引用原文核对。
+
+## 接下来的计划
+
+- 自己整理真实问题，对照手册检查答案和引用
+- 记录错误、遗漏及使用体验
+- 学习 RAG 的基本流程
